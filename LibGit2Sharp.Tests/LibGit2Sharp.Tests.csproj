@@ -115,6 +115,7 @@
     <Compile Include="ReferenceFixture.cs" />
     <Compile Include="RepositoryFixture.cs" />
     <Compile Include="TagFixture.cs" />
+    <Compile Include="TestHelpers\DateTimeOffsetExtensions.cs" />
     <Compile Include="TestHelpers\OdbHelper.cs" />
     <Compile Include="TestHelpers\DirectoryHelper.cs" />
     <Compile Include="TestHelpers\ExpectedFetchState.cs" />
@@ -136,7 +137,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\LibGit2Sharp\ExtraDefine.targets" />
