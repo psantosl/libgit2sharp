@@ -8,7 +8,7 @@ using LibGit2Sharp.Core.Handles;
 namespace LibGit2Sharp
 {
     /// <summary>
-    /// The result of a blame operation.
+    /// The result of a blame operation. MODIFIED
     /// </summary>
     public class BlameHunkCollection : IEnumerable<BlameHunk>
     {
