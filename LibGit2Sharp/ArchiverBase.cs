@@ -23,7 +23,7 @@ namespace LibGit2Sharp
         { }
 
         /// <summary>
-        /// Override this method to perform operations after the archiving of each entry of the tree took place.
+        /// (CHANGED AGAIN) Override this method to perform operations after the archiving of each entry of the tree took place.
         /// </summary>
         /// <param name="tree">The tree that was archived</param>
         /// <param name="oid">The ObjectId of the commit being archived, or null if there is no commit.</param>
