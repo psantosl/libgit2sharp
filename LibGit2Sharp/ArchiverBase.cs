@@ -14,7 +14,7 @@ namespace LibGit2Sharp
     public abstract class ArchiverBase
     {
         /// <summary>
-        /// Override this method to perform operations before the archiving of each entry of the tree takes place.
+        /// Override this method {carefully} to perform operations before the archiving of each entry of the tree takes place.
         /// </summary>
         /// <param name="tree">The tree that will be archived</param>
         /// <param name="oid">The ObjectId of the commit being archived, or null if there is no commit.</param>
