@@ -10,7 +10,7 @@
  */
 
 package org.bitstorm.gameoflife;
-
+// file was renamed
 import java.awt.AWTEvent;
 import java.awt.Color;
 import java.awt.Dimension;
