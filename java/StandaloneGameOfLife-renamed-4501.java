@@ -101,7 +101,7 @@ public class StandaloneGameOfLife extends GameOfLife {
     controls = new GameOfLifeControls();
     controls.addGameOfLifeControlsListener( this );
 
-    // put it all together
+    // put it all together - and change
         GridBagLayout gridbag = new GridBagLayout();
         GridBagConstraints canvasContraints = new GridBagConstraints();
         setLayout(gridbag);
