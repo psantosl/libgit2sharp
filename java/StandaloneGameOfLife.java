@@ -91,6 +91,7 @@ public class StandaloneGameOfLife extends GameOfLife {
 
     try {
       // Make GameOfLifeCanvas a drop target
+      // added on branch 4500 to see conflict
       DropTarget dt = new DropTarget( gameOfLifeCanvas, DnDConstants.ACTION_COPY_OR_MOVE, new MyDropListener() );
     } catch (NoClassDefFoundError e) {
       // Ignore. Older Java version don't support dnd
